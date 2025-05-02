@@ -83,6 +83,7 @@ DATABASES = {
         'PORT': '5432',              # Port par défaut
     }
 }
+AUTH_USER_MODEL = 'inventory.CustomUser'
 
 
 # Password validation
